@@ -230,7 +230,7 @@ The generated resume includes:
 
 ## 📜 License
 
-MIT License
+EPL 2.0 License
 
 ---
 
