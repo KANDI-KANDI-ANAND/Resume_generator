@@ -45,26 +45,6 @@ The final result is a structured, ATS-optimized resume in PDF format.
 
 The system is built as a LangGraph pipeline:
 
-```text
-Resume Parser
-      ↓
-Skill Extractor
-      ↓
-JD Analyzer
-      ↓
-Skill Matcher
-      ↓
-Gap Analyzer
-      ↓
-Planner
-      ↓
-Resume Writer
-      ↓
-ATS Validator
-      ↓
-PDF Builder
-```
-
 <img width="274" height="1051" alt="Project_Graph" src="https://github.com/user-attachments/assets/e6c38699-be89-4649-9ce9-84aeccbeb7c8" />
 
 Each step is implemented as a separate node, making the system modular and easy to extend.
