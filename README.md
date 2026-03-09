@@ -65,6 +65,8 @@ ATS Validator
 PDF Builder
 ```
 
+<img width="274" height="1051" alt="Project_Graph" src="https://github.com/user-attachments/assets/e6c38699-be89-4649-9ce9-84aeccbeb7c8" />
+
 Each step is implemented as a separate node, making the system modular and easy to extend.
 
 ---
@@ -239,13 +241,10 @@ The generated resume includes:
 
 ## 🚀 Future Improvements
 
-- Resume preview inside the UI  
-- ATS score visualization  
-- Multiple resume templates  
-- Support for DOCX resumes  
-- Automated job scraping  
-- Multi-language resume generation  
-- Job application automation  
+- Training a ML Model with the best ats scored resumes to evaluate the job description and to create the best resume 
+- Multiple resume templates  and Support for DOCX resumes
+- using RAG (pdf reading) concept to read the uploaded resume properly
+- Converting this application to the AI startup tool (1 optimized resume for 1rs.)
 
 ---
 
@@ -258,5 +257,4 @@ MIT License
 ## 👨‍💻 Author
 
 **Anand**  
-MERN Stack Developer  
 Agentic AI Engineer
