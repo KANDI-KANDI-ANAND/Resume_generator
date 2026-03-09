@@ -1,0 +1,21 @@
+[project]
+name = "resume-genereator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain>=1.2.10",
+    "langchain-community>=0.4.1",
+    "langchain-google-genai>=4.2.1",
+    "langchain-groq>=1.1.2",
+    "langchain-huggingface>=1.2.1",
+    "langchain-ollama>=1.0.1",
+    "langchain-openai>=1.1.10",
+    "langgraph>=1.0.10",
+    "load-dotenv>=0.1.0",
+    "openai>=2.26.0",
+    "pdfplumber>=0.11.9",
+    "reportlab>=4.4.10",
+    "streamlit>=1.55.0",
+]
